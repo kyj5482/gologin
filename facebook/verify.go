@@ -14,6 +14,11 @@ const facebookAPI = "https://graph.facebook.com/v2.4/"
 type User struct {
 	ID   string `json:"id"`
 	Name string `json:"name"`
+	Age string `json:"age_range"`
+	Gender string `json:"gender"`
+	Picture string `json:"picture"`
+	Timezone string `json:"timezone"`
+	Email string `json:"email"`
 }
 
 // client is a Facebook client for obtaining the current User.
